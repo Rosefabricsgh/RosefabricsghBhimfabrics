@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+	================================================== -->
+    <meta charset="utf-8">
+    <title>Bhim RosefabricsGh</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+	================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Favicons
+	================================================== -->
+    <link rel="apple-touch-icon" href="images/icon/fav.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icon/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icon/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="images/icon/favicon.png">
+
+    <!-- CSS
+	================================================== -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive styles-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Animation -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Prettyphoto -->
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="css/flexslider.css">
+    <!-- Flexslider -->
+    <link rel="stylesheet" href="css/cd-hero.css">
+    <!-- Style Swicther -->
+    <link id="style-switch" href="css/presets/preset1.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+</head>
+
+<body>
+    <div class="body-inner">
+        <!-- Header start -->
+        <header id="header" class="navbar-fixed-top header2" role="banner">
+            <div class="container">
+                <div class="row">
+                    <!-- Logo start -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				    </button>
+                        <div class="navbar-brand">
+                            <a href="index.html">
+                                <img class="img-responsive img-fluid" src="images/logo2.png" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!--/ Logo end -->
+                    <nav class="collapse navbar-collapse clearfix" role="navigation">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown active">
+                                <a href="#home" class="dropdown-toggle">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about" class="dropdown-toggle">About</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio" class="dropdown-toggle">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#order" class="dropdown-toggle">Order</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--/ Navigation end -->
+                </div>
+                <!--/ Row end -->
+            </div>
+            <!--/ Container end -->
+        </header>
+        <!--/ Header end -->
+
+        <!-- Modal -->
+        <div class="modal fade  bd-example-modal-lg main" id="myModal" tabindex="-1" data-backdrop="static" data-keyboard="false" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Be the first to Know!</h5>
+
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-horizontal" role="form" id="data-info">
+                            <!-- <label for="fullname">Name</label>     -->
+                            <input type="text" class="form-control" id="full_name" name="fullname" placeholder="Fullname" required>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email eg: i.am.william@gmail.com" required>
+                            <input type="number" class="form-control" id="phone_number" sname="phone_number" placeholder="Tel eg: 233246076373" required>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="submit-info" type="submit" class="btn btn-success">Submit</button>
+                        <img class=" img-fluid float-right" src="images/logo2.png" alt="logo">
+                    </div>
+
+                </div>
+                </form>
+            </div>
+        </div>
+        <!----END MOADL----->
+
+        <!-- Slider start -->
+        <section id="home" class="no-padding">
+
+            <div id="main-slide" class="ts-flex-slider">
+
+                <div class="flexSlideshow flexslider">
+                    <ul class="slides">
+                        <li>
+                            <div class="overlay2">
+                                <img class="" src="images/slider/1A.jpg" alt="slider">
+                            </div>
+                            <div class="flex-caption slider-content">
+                                <div class="col-md-12 text-center">
+                                    <h2 class="animated4">
+                                    </h2>
+                                    <h3 class="animated3">
+                                    </h3>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <p class="animated4"><a href="http://bit.ly/2LwEkvy" target="_blank" class="slider btn btn-primary white">Pre-Order Now</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="overlay2">
+                                <img class="" src="images/slider/2A.jpg" alt="slider">
+                            </div>
+                            <div class="flex-caption slider-content">
+                                <div class="col-md-12 text-center">
+                                    <h2 class="animated4">
+                                    </h2>
+                                    <h3 class="animated5">
+                                    </h3>
+                                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                        <p class="animated6"><a href="http://bit.ly/2LwEkvy" target="_blank" class="slider btn btn-primary white">Pre-Order Now</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!--/ Main slider end -->
+        </section>
+        <!--/ Slider end -->
+
+        <!-- About tab start -->
+        <section id="about" class="aboutangle">
+            <div class="container">
+
+                <div class="row">
+                    <div class="row d-flex justify-content-center">
+                        <div class="menu-content pb-60 col-lg-10">
+
+                            <div class="title text-center">
+                                <h1 class="mb-10">Why Pre-Order</h1>
+                                <!-- <p>Who are in extremely love with eco friendly system.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="single-menu" style="height:280px;">
+                                <div class="title-div justify-content-between d-flex">
+                                    <h4>Get to Meet Stonebwoy</h4>
+                                    <!-- <p class="price float-right">
+                                        $49
+                                    </p> -->
+                                </div>
+                                <p>
+                                    <ul class="pre">
+                                        Lucky fans their orders personnally delivered by Stonebwoy, tickets to upcoming Stonebwoy events & free pass to the official launch of BHIM fabrics.
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-menu" style="height:280px;">
+                                <div class="title-div justify-content-between d-flex">
+                                    <h4>Earn Discount</h4>
+                                    <!-- <p class="price float-right">
+                                        $49
+                                    </p> -->
+                                </div>
+                                <p>
+                                    <ul class="pre">
+                                        All pre-order are discounted, also comes with discount vouchers from Rosefabricsgh Fashion Designers when you buy on the Mobile App.
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="single-menu" style="height:280px;">
+                                <div class="title-div justify-content-between d-flex">
+                                    <h4>Get free Souvenirs & Suprises</h4>
+                                    <!-- <p class="price float-right">
+                                        $49
+                                    </p> -->
+                                </div>
+                                <p>
+                                    <ul class="pre">
+                                        Pre-order to get free Bhim Nation Souvenirs & signed lyric card of Stonebwoy songs. In Addition, 2 lucky fans get to be part of the official models of the Bhim fabrics
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--/ Content row end -->
+            </div>
+            <!-- Container end -->
+        </section>
+        <!-- About end -->
+        <!-- Portfolio start -->
+        <section id="portfolio" class="portfolio-box parallax parallax2 img-fluid">
+
+            <div class="parallax-overlay "></div>
+            <div class="container ">
+
+                <!--Isotope filter start -->
+                <div class="row text-center ">
+                    <div class="isotope-nav " data-isotope-nav="isotope ">
+                        <ul>
+                            <li><a href="# " class="active " data-filter=".design ">LOOK GOOD</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Isotope filter end -->
+
+            <div class="row ">
+                <div id="isotope " class="isotope ">
+                    <div class="col-sm-3 design isotope-item ">
+                        <div class="grid ">
+                            <figure class="effect-oscar ">
+                                <img class="img-fluid " src="images/portfolio/1.jpg " alt=" ">
+                                <figcaption>
+                                    <a class="view icon-pentagon " data-rel="prettyPhoto " href="images/portfolio/1.jpg "><i class="fa fa-search "></i></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- Isotope item end -->
+
+                    <div class="col-sm-3 design isotope-item ">
+                        <div class="grid ">
+                            <figure class="effect-oscar ">
+                                <img class="img-fluid " src="images/portfolio/2.jpg " alt=" ">
+                                <figcaption>
+                                    <a class="view icon-pentagon " data-rel="prettyPhoto " href="images/portfolio/2.jpg "><i class="fa fa-search "></i></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- Isotope item end -->
+
+                    <div class="col-sm-3 design isotope-item ">
+                        <div class="grid ">
+                            <figure class="effect-oscar ">
+                                <img class="img-fluid " src="images/portfolio/3.jpg " alt=" ">
+                                <figcaption>
+                                    <a class="view icon-pentagon " data-rel="prettyPhoto " href="images/portfolio/3.jpg "><i class="fa fa-search "></i></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- Isotope item end -->
+
+                    <div class="col-sm-3 design isotope-item ">
+                        <div class="grid ">
+                            <figure class="effect-oscar ">
+                                <img class="img-fluid " src="images/portfolio/4.jpg " alt=" ">
+                                <figcaption>
+                                    <a class="view icon-pentagon " data-rel="prettyPhoto " href="images/portfolio/4.jpg "><i class="fa fa-search "></i></a>
+                                </figcaption>
+                            </figure>
+                        </div>
+
+                    </div>
+                    <!-- Isotope item end -->
+                </div>
+                <!-- Isotope content end -->
+            </div>
+            <!-- Content row end -->
+    </div>
+    <!-- Container end -->
+    </section>
+    <!-- Portfolio end -->
+
+    <!-- Service box start -->
+    <section id="feature" class="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading text-center">
+                    <!-- <span class="feature-icon pull-left"></span> -->
+                    <h3 class="title3 pre"><i class="fa fa-shopping-cart"></i> &nbsp; How to Pre-Order on www.bhim.rosefabricgh.com using a phone / Pc</h3>
+                </div>
+                <div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+
+                    <div class="feature-content">
+                        <h3 class="pre"><span class="feature-icon"><i class="fa fa-codepen"></i></span> &nbsp; Step 1</h3>
+                        <p class="pre">Visit RosefabricGh website with the URL: www.bhim.rosefabricsgh.com</p>
+                    </div>
+                </div>
+                <!--/ End first featurebox -->
+
+                <div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+                    <div class="feature-content">
+                        <h3 class="pre"> <span class="feature-icon"><i class="fa fa-codepen"></i></span> &nbsp; Step 2</h3>
+                        <p class="pre">Press on any Pre-order button on the website page to move you to pre-order section</p>
+                    </div>
+                </div>
+                <!--/ End first featurebox -->
+
+                <div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+                    <div class="feature-content">
+                        <h3 class="pre"><span class="feature-icon"><i class="fa fa-codepen"></i></span> &nbsp; Step 3</h3>
+                        <p class="pre">Choose any fabric or any bundle of your choice & click on it. Enter the number of yards you want and add to cart</p>
+                    </div>
+                </div>
+                <!--/ End first featurebox -->
+            </div>
+            <!-- Content row end -->
+
+            <div class="gap-40"></div>
+
+            <div class="row">
+                <div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+                    <div class="feature-content">
+                        <h3 class="pre"><span class="feature-icon"><i class="fa fa-codepen"></i></span> &nbsp; Step 4</h3>
+                        <p class="pre">Proceed to checkout</p>
+                        <p class="pre">Proceed by clicking :CONTINUE </p>
+                        <p class="pre">And fill out the address the form.</p>
+                    </div>
+                </div>
+                <!--/ End first featurebox -->
+
+                <div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+                    <div class="feature-content">
+                        <h3 class="pre"><span class="feature-icon"><i class="fa fa-codepen"></i></span> &nbsp; Step 5</h3>
+                        <p class="pre"> Choose a delivery option, either Pido Express or DHL and click on CONTINUE</p>
+                    </div>
+                </div>
+                <!--/ End first featurebox -->
+
+                <div class="feature-box col-sm-4 wow fadeInDown" data-wow-delay=".5s">
+                    <div class="feature-content">
+                        <h3 class="pre"><span class="feature-icon"><i class="fa fa-codepen"></i></span> &nbsp; Step 6</h3>
+                        <p class="pre">You can either pay with your VISA card or mobile money account like MTN MOMO, Tigo Cash or Vodafone cash. Follow the instructions of the payment process on your screen to pay</p>
+                    </div>
+                </div>
+                <!--/ End first featurebox -->
+            </div>
+            <!-- Content row end -->
+
+        </div>
+        <!--/ Container end -->
+    </section>
+    <!--/ Service box end -->
+
+
+    <!-- Parallax 2 start -->
+    <section id="order" class="parallax parallax3 img-fluid">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>Just Click Button and Pre-Order for your Fabrics</h3>
+                    <p>
+                        <a href="http://bit.ly/2LwEkvy" target="_blank" class="btn btn-primary solid">Pre-Order Now</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- Container end -->
+    </section>
+    <!-- Parallax 2 end -->
+
+    <!-- Newsletter start -->
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 heading text-center">
+                    <span class="icon-pentagon wow bounceIn animated"><i class="fa fa-shopping-cart"></i></span>
+                    <h2 class="title2">Pre-Order
+                        <span class="title-desc">Bhim Fabrics.. Bringing out the beauty in you..</span>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12">
+                    <div class="form-group">
+                        <button href="http://bit.ly/2LwEkvy" data-target="_blank" class="btn btn-lg btn-block btn-primary">Grap your fabric Now!!!...</button>
+                    </div>
+                </div>
+            </div>
+            <!--/ Content row end -->
+        </div>
+        <!--/ Container end -->
+    </section>
+    <!-- Newsletter end -->
+    <!-- Clients start -->
+    <section id="clients" class="clients">
+        <div class="container">
+            <div class="row wow fadeInLeft">
+                <div id="client-carousel" class="col-sm-12 owl-carousel owl-theme text-center client-carousel">
+                    <figure class="item client_logo">
+                        <a href="https://www.rosefabricsgh.com" target="_blank">
+                            <img src="images/base-slider/rose.png" alt="client">
+                        </a>
+                    </figure>
+                    <figure class="item client_logo">
+                        <a href="#">
+                            <img src="images/base-slider/bhim.png" alt="client">
+                        </a>
+                    </figure>
+                    <figure class="item client_logo">
+                        <a href="http://www.startup-mentoring.org/startups/kenneth-anku/" target="_blank">
+                            <img src="images/base-slider/enpact.png" alt="client">
+                        </a>
+                    </figure>
+                    <figure class="item client_logo">
+                        <a href="https://www.pulse.com.gh/lifestyle/fashion/p-promos-9-best-places-to-get-exquisite-fabrics-to-buy/52drv3n" target="_blank">
+                            <img src="images/base-slider/pulse.png" alt="client">
+                        </a>
+                    </figure>
+                    <figure class="item client_logo">
+                        <a href="https://www.ghanaweb.com/GhanaHomePage/business/Ghana-eCommerce-Awards-nominees-list-released-695404" target="_blank">
+                            <img src="images/base-slider/ghweb.png" alt="client">
+                        </a>
+                    </figure>
+                    <figure class="item client_logo">
+                        <a href="http://ghanaecommerceawards.com/public-vote.php" target="_blank">
+                            <img src="images/base-slider/ghecom.png" alt="client">
+                        </a>
+                    </figure>
+                    <figure class="item client_logo">
+                        <a href="#">
+                            <img src="images/base-slider/dhl.png" alt="client">
+                        </a>
+                    </figure>
+                </div>
+                <!-- Owl carousel end -->
+            </div>
+            <!-- Main row end -->
+        </div>
+        <!--/ Container end -->
+    </section>
+    <!--/ Clients end -->
+
+    <!-- Footer start -->
+    <footer id="contact" class="footer parallax">
+        <div class="parallax-overlay"></div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 col-sm-12 footer-widget">
+                    <h3 class="widget-title">Quick Links</h3>
+
+                    <ul class="unstyled arrow">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#order">Order</a></li>
+                        <li><a href="#clients">Partners</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="https://www.rosefabricsgh.com" target="_blank">RosefabricsGh Website</a></li>
+
+                    </ul>
+
+                </div>
+                <!--/ End Recent Posts-->
+                <div class="col-md-6 col-sm-12 footer-widget footer-about-us">
+                    <h3 class="widget-title">About RosefabricsGH</h3>
+                    <p>Rosefabricsgh is Africa's leading online fabric store. We strive to be the most trusted and inspirational fabric store in the world, providing a flawless customer experience through passion and continuous innovation.</p>
+                    <p><strong>Address: </strong>Dansoman-Banana INN,Kpakpo Okoso Street(Near TED Academy)Accra</p>
+                    <p><strong>GPS Code: </strong>GA-442-6782</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <strong>Email: </strong>
+                            <p>info@rosefabricsgh.com</p>
+                        </div>
+                        <div class="col-md-6">
+                            <strong>Phone No.</strong>
+                            <p>+233272954084</p>
+                        </div>
+                    </div>
+                    <br/>
+                    <p><a href="http://bit.ly/2LwEkvy" target="_blank" class="btn btn-primary solid square">Pre-Order Now <i class="fa fa-long-arrow-right"></i></a></p>
+                </div>
+                <!--/ end about us -->
+
+            </div>
+            <!-- Row end -->
+        </div>
+        <!-- Container end -->
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Footer start -->
+    <section id="copyright" class="copyright angle" style="background-color: rgb(14, 13, 13);">
+        <div class="container" style="background-color: rgb(12, 12, 12);">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <ul class="footer-social unstyled">
+                        <li>
+                            <a title="Twitter" href="https://twitter.com/rosefabricsGh" target="_blank">
+                                <span class="icon-pentagon wow bounceIn"><i class="fa fa-twitter"></i></span>
+                            </a>
+                            <a title="Facebook" href="https://www.facebook.com/rosefabricsgh/" target="_blank">
+                                <span class="icon-pentagon wow bounceIn"><i class="fa fa-facebook"></i></span>
+                            </a>
+                            <a title="Google+" href="https://www.instagram.com/rosefabricsgh/" target="_blank">
+                                <span class="icon-pentagon wow bounceIn"><i class="fa fa-instagram"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/ Row end -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="copyright-info">
+                        <h4 class="life">BhimRosefabricsGh</h4> &copy; Copyright 2019.
+                    </div>
+                </div>
+            </div>
+            <!--/ Row end -->
+            <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top affix">
+                <button class="btn btn-primary" title="Back to Top"><i class="fa fa-angle-double-up"></i></button>
+            </div>
+        </div>
+        <!--/ Container end -->
+    </section>
+    <!--/ Footer end -->
+    <!-- Javascript Files
+================================================== -->
+
+    <!-- initialize jQuery Library -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!-- Bootstrap jQuery -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Owl Carousel -->
+    <script type="text/javascript" src="js/owl.carousel.js"></script>
+    <!-- Bxslider -->
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <!-- Isotope -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- Wow Animation -->
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <!-- SmoothScroll -->
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <!-- Eeasing -->
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <!-- Counter -->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+
+    <!-- Template custom -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="jquery.bootstrap-growl.js"></script>
+
+</body>
+
+</html>
+
+<script>
+    var modal;
+    $(window).load(function() {
+        $('#myModal').modal('show');
+        modal = $(this)
+            /*Validation of the modal form*/
+        $('form[id="data-info"]').validate({
+            rules: {
+                fullname: 'required',
+                email: {
+                    required: true,
+                    email: true,
+                },
+                phone_number: {
+                    required: true,
+                    minlength: 15,
+
+                }
+            },
+            messages: {
+                fullname: 'This field is required',
+                email: 'Enter a valid email',
+                phone_number: 'Enter a valid Phone Number',
+            },
+            /*End of the Validation of modal form*/
+            /*Submission of fields into the database*/
+            submitHandler: function(form) {
+                axios.post('http://rose-fabrics-app.herokuapp.com/api/v1/service/rosefabrics/db', {
+                        'resource': [{
+                            'name': 'bhim_preorder',
+                            'field': [{
+                                'name': $("#full_name").val(),
+                                'email': $("#email").val(),
+                                'phone_number': $("#phone_number").val()
+                            }]
+                        }]
+                    }, {
+                        headers: {
+                            'Devless-token': '516d707a35bf9714d30b3c8273c5d66c'
+                        }
+                    })
+                    /*End of submission*/
+                    /*Feedback after submission ie notification toaster*/
+                    .then(function(response) {
+                        setTimeout(function() {
+                            $.bootstrapGrowl("Thank you for reaching to RosefabricsGh", {
+                                type: 'success'
+                            });
+                        }, 1000);
+                        $('#myModal').modal('hide')
+
+                    })
+                    .catch(function(error) {
+                        console.log(error);
+                    });
+            } /*End of notification message*/
+
+        });
+
+    });
+</script>
